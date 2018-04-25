@@ -14,6 +14,7 @@ func (v *P4Vertex) Scale4(f float64) {
 	v.Y = v.Y * f
 }
 
+//func (v P4Vertex) Abs4() float64 {
 func (v *P4Vertex) Abs4() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
